@@ -1,0 +1,53 @@
+input{
+    outline: none;
+    margin-bottom: 10px;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #4c7846;
+  }
+  
+  label {
+    color: #00bfa0;
+    font-weight: bolder;
+  }
+  #container{
+    background-color: #539288;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    
+  }
+  form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    width: 500px;
+    background-color: #fff;
+  }
+  
+  #login {
+    
+    padding: 5px;
+    color:white;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    
+
+  }
+  
+  #forgot {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    color: #000;
+  }
+
+  
